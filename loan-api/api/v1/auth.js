@@ -163,7 +163,7 @@ router.post('/uploan', async (req, res) => {
   } catch (err) {
     res.json({
       status: 'error',
-      info: err
+      info: '添加失败'
     })
   }
 });
